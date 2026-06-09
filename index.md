@@ -162,10 +162,10 @@ Each week, you will receive a short lab that will help you synthesize the materi
 Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). 
 Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading of the entire document.
 
-In addition to submitting the required lab files, you must submit a screen-recorded video walkthrough demonstrating your understanding of the lab. 
-The purpose of the video walkthrough is to demonstrate understanding of the techniques used in the lab and the meaning and implications of the results as well as to develop professional communication skills expected of crime analysts.
+In addition to submitting the required lab files, you will submit an *Analytical Briefing*, which is a video walkthrough demonstrating your understanding of the lab. 
+The purpose of the Analytical Briefing is to demonstrate understanding of the techniques used in the lab and the meaning and implications of the results as well as to develop professional communication skills expected of crime analysts.
 While specific instructions will be given for each video, in general you will record your screen while discussing your completed lab and include your voice narration. 
-The video should be between 3–7 minutes and use your own words to explain your work. 
+The video should be between 3–7 minutes and use <u>your own words</u> to explain your work. 
 You should focus on interpretation and analysis, rather than simply reading answers from the assignment.
 
 On the day **before** the lab is due, I will grade the labs and provide feedback, noting any changes you might consider to improve your grade (if needed).

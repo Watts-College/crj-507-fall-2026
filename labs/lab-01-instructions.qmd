@@ -3,7 +3,7 @@ title: "Lab 01 - Introduction to Network Analysis - INSTRUCTIONS"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set( echo = TRUE )
 ```
 
 # Introduction
@@ -35,13 +35,34 @@ For the first lab, I would like you to construct a network. Think about a type o
 
 After completing Part I, create a new network and repeat Part I on that network.
 
+## Analytical Briefing
+
+In addition to submitting your written assignment, record a 3–5 minute *Analytical Briefing* discussing the two networks you created.
+
+In your briefing, address the following:  
+
+  - Describe each network
+  - Explain the nodes and ties
+  - Discuss the network structure
+  - Compare the two networks
+
+### Expectations
+
+Your briefing should demonstrate that you understand the basic concepts introduced in this lab and can correctly apply network terminology to real-world examples. 
+Focus on explaining your reasoning and interpretations rather than simply reading answers from your written assignment.
+
 <br>
 ____
 
 # How to Submit
 
-Upload a `.pdf` or `.docx` file to the appropriate link for this assignment on the Canvas page for this course.
+For your written work, upload a `.pdf` (or `.docx`) file and for your Analytical Briefing upload a `.mp4` file. 
+Both files should be updated to the appropriate link for this assignment on the Canvas page for this course.
 
-<br>
+Submit both your written assignment and Analytical Briefing through the appropriate assignment links on the course Canvas page.
 
-###### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2026/issues/new) page. Thanks!
+**Written Assignment**: Upload a `.pdf` or `.docx` file containing your responses to the lab questions.
+
+**Analytical Briefing**: Upload an `.mp4` video file containing your screen-recorded *Analytical Briefing*.
+
+Before submitting, verify that both files open correctly and that your video includes clear audio narration.

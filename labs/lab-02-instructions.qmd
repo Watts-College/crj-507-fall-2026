@@ -13,8 +13,8 @@ The purpose of this lab is to familiarize yourself with how networks are created
 
 <br>
 
-In [Lab 1](../labs/lab-01-instructions.html), you created two networks. I would like you to continue working with those networks for *this* lab. Please review the [
-Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html) and [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html) tutorials prior to beginning this lab.  
+In [Lab 1](../labs/lab-01-instructions.html), you created two networks. I would like you to continue working with those networks for *this* lab. Please review the [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html) and [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html) tutorials prior to beginning this lab. 
+You will also discuss the descriptive properties of your network. So, be sure to review the [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html) chapter of the textbook as you go through that part of the lab.
 
 Two **IMPORTANT** points:  
 
@@ -33,9 +33,26 @@ For *each* network you created, do the following:
 1. Create an adjacency matrix of the network using the `matrix()` function.
 2. Create an object of class `network`. 
 3. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
-4. Describe how each of your modifications helps improve the interpretability of the network.  
+4. Describe how each of your modifications helps improve the interpretability of the network.
+5. Calculate the density, identify the number of components, and report the diameter of the network.
+6. What do the descriptive features of the network (i.e. density, components, diameter) tell you about the structure of the network?
 
 <br>
+
+## Analytical Briefing
+
+In your briefing, address the following:  
+
+  - Introduce your network, briefly describe it and explain what the nodes and ties represent
+  - Discuss your visualizations, focusing your modifications to the plots improve the interpretability of the network
+  - Interpret the descriptive measures (i.e. the density, number of components, and diameter) and explain what these measures tell you about the overall structure of the networks
+  - Discuss what insights an analyst might gain from the visualization and descriptive measures
+  - Compare the two networks focusing your attention on the similarities and differences do you observe based on your visualization and the descriptive measures
+
+### Expectations
+
+Your briefing should demonstrate your understanding of network visualization and descriptive network measures. 
+Focus on explaining what the visualizations and statistics reveal about the networks rather than simply reporting numerical values or reading answers from your written assignment.
 
 ____
 
@@ -55,7 +72,7 @@ When you have completed your assignment, click the "Knit" button to render your 
 
 ### Special Instructions
 
-Upload both your `.RMD` and `.HTML` files to the appropriate link for this assignment on the Canvas page for this course.
+Upload your `.RMD`, `.HTML`, and `.MP4` files to the appropriate link for this assignment on the Canvas page for this course.
 
 <br>
 
@@ -63,8 +80,9 @@ Upload both your `.RMD` and `.HTML` files to the appropriate link for this assig
 
 Remember to ensure the following before submitting your assignment.
 
-  * Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
+  * Name your files using this format: **Lab-##-LastName.rmd**, **Lab-##-LastName.html**, **Lab-##-LastName.mp4**
   * Show both the solution for your code and write out your answers in the body text 
+  * Verify that both files open correctly and that your video includes clear audio narration
 
 See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
 
@@ -81,7 +99,3 @@ See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for
 * If an object is "not found", make sure it was created or loaded with `library()` in a previous chunk
 
 **If All Else Fails:** If you cannot determine and fix the errors in a code chunk that's preventing you from knitting your document, add `eval = FALSE` inside the brackets of `{r}` at the beginning of a chunk to ensure that R does not attempt to evaluate it, that is: `{r eval = FALSE}`. This will prevent an erroneous chunk of code from halting the knitting process.  
-
-<br>
-
-###### ***Please*** report any needed corrections to the [Issues](https://github.com/Watts-College/crj-507-spring-2026/issues/new) page. Thanks!
