@@ -12,14 +12,14 @@ info:
  course_title: Social Network Analysis
  course_number: CRJ 507
  course_level: Graduate
- course_start_end_dates: January 12th - March 3rd, 2026
+ course_start_end_dates: August 20th - October 9th, 2026
  course_prerequisites:  
  class_meets_when:  Asynchronous  
  class_meets_where:  Online
 
 instructor:
 -  name: Jacob T.N. Young
-   title: Associate Professor
+   title: Professor
    email: CRJ507@asu.edu
    website_url: 'https://jacobtnyoung.github.io/'
    github_url:  'https://github.com/jacobtnyoung'
@@ -162,6 +162,12 @@ Each week, you will receive a short lab that will help you synthesize the materi
 Weekly labs will receive one of the following scores: 10 (excellent work!), 7 (great start, but there are a few things to fix), 3 (I can see you are working hard, but there are a number of areas that need fixing). 
 Scoring is based on the answers you provide, the cleanliness of the code and output, and proofreading of the entire document.
 
+In addition to submitting the required lab files, you must submit a screen-recorded video walkthrough demonstrating your understanding of the lab. 
+The purpose of the video walkthrough is to demonstrate understanding of the techniques used in the lab and the meaning and implications of the results as well as to develop professional communication skills expected of crime analysts.
+While specific instructions will be given for each video, in general you will record your screen while discussing your completed lab and include your voice narration. 
+The video should be between 3–7 minutes and use your own words to explain your work. 
+You should focus on interpretation and analysis, rather than simply reading answers from the assignment.
+
 On the day **before** the lab is due, I will grade the labs and provide feedback, noting any changes you might consider to improve your grade (if needed).
 This means that if you want to get feedback, turn it in early!
 *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). 
@@ -202,9 +208,10 @@ You will be asked to imagine that you work for a police department and your supe
 
 The following criteria, description, and corresponding points are used to evaluate the project (30 points total):
 
-  - **Answering Prompts:** Providing responses for each of the prompts and code for all prompts **(15 pts)**
+  - **Answering Prompts:** Providing responses for each of the prompts and code for all prompts **(12 pts)**
   - **Following Report Format Instructions:** Following instructions for report content (i.e., not having extraneous code or output in the report) **(10 pts)**
   - **Proofreading and Style:** Responses are free of grammatical errors; content exceeds expectations in functionality, design, layout, analysis, or insights **(5 pts)**
+  - **Video Walkthrough:** Providing a video walkthrough discussing your report **(3 pts)**
 
 ## D. General Grading Rubric for Written Work
 
@@ -229,7 +236,7 @@ After the video is distributed, it is no longer possible to receive points for a
 Lecture files, assignments, and other course communications will be transmitted via this site and/or through the class email list. 
 **All assignment submissions** will be made through Canvas.
 
-Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-spring-2026/help/) page on this site, 
+Please post lab questions on the [**Get Help**](https://watts-college.github.io/crj-507-fall-2026/help/) page on this site, 
 schedule individual office hours using the [Calendly link](https://calendly.com/jacobtnyoung/crj-507-student-meeting), 
 and [email me](mailto:CRJ507@asu.edu). Please do not use the Canvas system to send emails or course questions, as it is not set up well for handling questions that we will address in this course.
 
@@ -293,13 +300,13 @@ Using generative AI bypasses these learning objectives and prevents meaningful a
 ## A. Schedule: Overview of Readings and Assignments
 
 ASU Online courses are typically offered on a seven and a half week schedule. 
-A schedule for each week of the term is outlined in the [**Course Schedule**](https://watts-college.github.io/crj-507-spring-2026/schedule/). 
+A schedule for each week of the term is outlined in the [**Course Schedule**](https://watts-college.github.io/crj-507-fall-2026/schedule/). 
 The course is divided into seven units with specific learning objectives for each unit.
 
 **Note:** I may, from time to time, adjust assigned readings or adjust the due dates for assignments. 
 The basic course content approach and learning objectives will not change, but slight modifications are possible if circumstances warrant an adjustment.
 
-Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-spring-2026/schedule/).
+Visit the [**Course Schedule**](https://watts-college.github.io/crj-507-fall-2026/schedule/).
 
 <br>
 <br>

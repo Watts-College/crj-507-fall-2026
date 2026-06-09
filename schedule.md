@@ -2,30 +2,30 @@
 layout: schedule
 title: Schedule
 
-base: 'https://github.com/Watts-College/crj-507-spring-2026/raw/main/'
+base: 'https://github.com/Watts-College/crj-507-fall-2026/raw/main/'
 
 canvas:
   assignment_url: 'https://canvas.asu.edu/courses/244904/assignments'
   yellowdig_url: 'https://canvas.asu.edu/courses/244904/assignments/6928137'
 
 lab-due-dates:
-  lab-01: 'WED January 21'
-  lab-02: 'WED January 28'
-  lab-03: 'WED February 4'
-  lab-04: 'WED February 11'
-  lab-05: 'WED February 18'
-  lab-06: 'WED February 25'
+  lab-01: 'WED August 26'
+  lab-02: 'WED September 2'
+  lab-03: 'WED September 9'
+  lab-04: 'WED September 16'
+  lab-05: 'WED September 23'
+  lab-06: 'WED September 30'
 
 discussion-dates:
-  topic-01: 'FRI January 16'
-  topic-02: 'FRI January 23'
-  topic-03: 'FRI January 30'
-  topic-04: 'FRI February 6'
-  topic-05: 'FRI February 13'
-  topic-06: 'FRI February 20'
+  topic-01: 'FRI August 28'
+  topic-02: 'FRI September 4'
+  topic-03: 'FRI September 11'
+  topic-04: 'FRI September 18'
+  topic-05: 'FRI September 25'
+  topic-06: 'FRI October 2'
 
 final-project:
-  due-date: 'TUESDAY March 3'
+  due-date: 'FRIDAY October 9'
 
 ---
 
@@ -283,7 +283,7 @@ This course is going to throw a lot at you, but also provide a lot of support. O
 If you find something confusing, let me know (likely others will find it confusing as well).
 
 * Schedule a virtual [office hours session](https://calendly.com/jacobtnyoung/crj-507-student-meeting) with me and screen share to walk through issues
-* Post a question to the [course discussion board](https://watts-college.github.io/crj-507-spring-2026/help/)
+* Post a question to the [course discussion board](https://watts-college.github.io/crj-507-fall-2026/help/)
 * Request a walk-through and I will provide examples and steps
 
 As a general rule of thumb, if you are stuck, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues, then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question, then virtual office hours are your best option.
@@ -330,7 +330,7 @@ If all of this looks foreign to you, that is perfectly fine! By the end of the c
 
 The following checklist will help you organize and prepare for success in this course.
 
-- [ ] [Read the Syllabus](https://watts-college.github.io/crj-507-spring-2026/)
+- [ ] [Read the Syllabus](https://watts-college.github.io/crj-507-fall-2026/)
 - [ ] [Install R](https://cran.rstudio.com/) and [R Studio Desktop](https://www.rstudio.com/products/rstudio/download/)
 - [ ] [Sign-Up for a GitHub Account](https://github.com/join)
 
