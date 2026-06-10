@@ -2,7 +2,7 @@ subtitle: "CRJ 507 Social Network Analysis"
 
 format:
   html:
-    theme: sandstone
+    theme: spacelab
     highlight: haddock
     toc: true
     toc-depth: 3
