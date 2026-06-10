@@ -3446,7 +3446,7 @@ window.onload = function() {
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
   <li><a href="#part-i-working-with-an-undirected-network" id="toc-part-i-working-with-an-undirected-network" class="nav-link" data-scroll-target="#part-i-working-with-an-undirected-network">Part I: Working with an Undirected Network</a></li>
-  <li><a href="#part-ii-working-with-a-directed-network" id="toc-part-ii-working-with-a-directed-network" class="nav-link" data-scroll-target="#part-ii-working-with-a-directed-network">Part II: Working with a <strong>Directed</strong> Network</a></li>
+  <li><a href="#part-ii-working-with-a-directed-network" id="toc-part-ii-working-with-a-directed-network" class="nav-link" data-scroll-target="#part-ii-working-with-a-directed-network">Part II: Working with a Directed Network</a></li>
   <li><a href="#part-iii-your-networks" id="toc-part-iii-your-networks" class="nav-link" data-scroll-target="#part-iii-your-networks">Part III: Your Networks</a></li>
   <li><a href="#part-iv-analytical-briefing" id="toc-part-iv-analytical-briefing" class="nav-link" data-scroll-target="#part-iv-analytical-briefing">Part IV: Analytical Briefing</a></li>
   </ul></li>
@@ -3485,12 +3485,7 @@ window.onload = function() {
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
 <p>The purpose of this lab is to familiarize yourself with calculating degree centrality and degree centralization scores for undirected and directed networks in <em>R</em>. Please review the <a href="https://jacobtnyoung.github.io/snaca-textbook/snaca-centrality-degree.html">Degree Centrality</a> chapter of the <a href="https://jacobtnyoung.github.io/snaca-textbook/index.html">Social Network Analysis for Crime Analysts</a> textbook and the <a href="https://jacobtnyoung.github.io/snaca-r/snaca-r-degree-centrality.html">Degree Centrality and Centralization</a> tutorial in the <a href="https://jacobtnyoung.github.io/snaca-r/index.html">Social Network Analysis for Crime Analysts using R</a> textbook prior to beginning this lab.</p>
-<p>In Parts I and II of this lab, we will use two new networks (described below). In Part III, you will use the two networks you created from <a href="../labs/lab-01-instructions.html">Lab 1</a> and <a href="../labs/lab-02-instructions.html">Lab 2</a>. In Part IV, you will create an <strong>Analytical Briefing</strong>.</p>
-<p><br></p>
-<section id="part-i-working-with-an-undirected-network" class="level2">
-<h2 class="anchored" data-anchor-id="part-i-working-with-an-undirected-network">Part I: Working with an Undirected Network</h2>
-<p>For this part of the lab, you will use data from <a href="https://link.springer.com/article/10.1023/A:1015457400897">Margaret R. Weeks, Scott Clair, Stephen P. Borgatti, Kim Radda &amp; Jean J. Schensul’s analysis</a> of drug users in Hartford, Connecticut. The data were collected as part of a study examining HIV risk in high-risk drug-use settings. Nodes represent individuals, and ties represent social and drug-use relationships identified through outreach and referral-based sampling. This <em>undirected</em> network captures connections among people who gathered at locations where injecting drugs or smoking crack cocaine occurred. Researchers used the network to study how social structure influences risk behaviors and how prevention information might spread through peer relationships.</p>
-<p>This network is available in <code>SNACpack</code> as an object of class <code>network</code> and is labeled <code>drug_net</code>. To review documentation on the network, use this command: <code>?drug_net</code>.</p>
+<p>In Parts I and II of this lab, we will use two new networks (described below). In Part III, you will use the two networks you created from <a href="../labs/lab-01-instructions.html">Lab 1</a> and <a href="../labs/lab-02-instructions.html">Lab 2</a>. Part IV, gives instructions for your <em>Analytical Briefing</em>.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Network and Matrix Objects">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -3501,10 +3496,14 @@ window.onload = function() {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Note</em> that all networks in the <code>SNACpack</code> package are of class <code>network</code>. This means that to use functions for objects of class <code>matrix</code> (such as <code>dim()</code> or <code>sum()</code>), you need to first coerce the object to a <code>matrix</code> object using <code>as.matrix</code>. For example: <code>my_matrix &lt;- as.matrix( my_network )</code>.</p>
+<p><em>Note</em> in this lab you will work with objects from the <code>SNACpack</code> package. All networks in the <code>SNACpack</code> package are of class <code>network</code>. This means that to use functions for objects of class <code>matrix</code> (such as <code>dim()</code> or <code>sum()</code>), you need to first coerce the object to a <code>matrix</code> object using <code>as.matrix</code>. For example: <code>my_matrix &lt;- as.matrix( my_network )</code>. Keep this in mind as you work through this lab.</p>
 </div>
 </div>
 <p><br></p>
+<section id="part-i-working-with-an-undirected-network" class="level2">
+<h2 class="anchored" data-anchor-id="part-i-working-with-an-undirected-network">Part I: Working with an Undirected Network</h2>
+<p>For this part of the lab, you will use data from <a href="https://link.springer.com/article/10.1023/A:1015457400897">Margaret R. Weeks, Scott Clair, Stephen P. Borgatti, Kim Radda &amp; Jean J. Schensul’s analysis</a> of drug users in Hartford, Connecticut. The data were collected as part of a study examining HIV risk in high-risk drug-use settings. Nodes represent individuals, and ties represent social and drug-use relationships identified through outreach and referral-based sampling. This <em>undirected</em> network captures connections among people who gathered at locations where injecting drugs or smoking crack cocaine occurred. Researchers used the network to study how social structure influences risk behaviors and how prevention information might spread through peer relationships.</p>
+<p>This network is available in <code>SNACpack</code> as an object of class <code>network</code> and is labeled <code>drug_net</code>. To review documentation on the network, use this command: <code>?drug_net</code>.</p>
 <p>For the <code>drug_net</code> network, do the following:</p>
 <ol type="1">
 <li>Plot the network using this command: <code>gplot( drug_net )</code>.</li>
@@ -3519,9 +3518,9 @@ window.onload = function() {
 <p><br></p>
 </section>
 <section id="part-ii-working-with-a-directed-network" class="level2">
-<h2 class="anchored" data-anchor-id="part-ii-working-with-a-directed-network">Part II: Working with a <strong>Directed</strong> Network</h2>
-<p>For this part of the lab, you will use data from <a href="https://link.springer.com/article/10.1007/s10940-006-9007-x">Mangia Natarajan’s study</a> of a large heroin trafficking organization in New York City. The network is directed, with binary ties of communication between individuals collected from police wiretaps of telephone conversations. This network is available in <code>SNACpack</code> and is called <code>heroin_dealing_net</code>. To review documentation on the network, use <code>?heroin_dealing_net</code>.</p>
-<p><br></p>
+<h2 class="anchored" data-anchor-id="part-ii-working-with-a-directed-network">Part II: Working with a Directed Network</h2>
+<p>For this part of the lab, you will use data from <a href="https://link.springer.com/article/10.1007/s10940-006-9007-x">Mangia Natarajan’s study</a> of a large heroin trafficking organization in New York City. The network is directed, with binary ties of communication between individuals collected from police wiretaps of telephone conversations.</p>
+<p>This network is available in <code>SNACpack</code> and is called <code>heroin_dealing_net</code>. To review documentation on the network, use this command: <code>?heroin_dealing_net</code>.</p>
 <p>For the <code>heroin_dealing_net</code> network, do the following:</p>
 <ol type="1">
 <li>Plot the network using this command: <code>gplot( heroin_dealing_net )</code>.</li>
@@ -3571,7 +3570,7 @@ window.onload = function() {
 <li>Assume you are an analyst assigned to investigate heroin trafficking. Based on your analysis: What investigative or intervention strategy would you recommend? Which actors or positions in the network would you prioritize? How did your degree centrality and centralization findings inform this recommendation?</li>
 </ul></li>
 </ul>
-<p><br> <br></p>
+<p><br></p>
 <hr>
 <p><br></p>
 </section>
@@ -3582,7 +3581,7 @@ window.onload = function() {
 <p><br></p>
 <section id="knitting-to-html" class="level3">
 <h3 class="anchored" data-anchor-id="knitting-to-html">Knitting to HTML</h3>
-<p>When you have completed your assignment, click the “Knit” button to render your <code>.RMD</code> file into a <code>.HTML</code> report.</p>
+<p>When you have completed your assignment using the template, click the “Knit” button to render your <code>.RMD</code> file into a <code>.HTML</code> report.</p>
 <p><br></p>
 </section>
 <section id="special-instructions" class="level3">

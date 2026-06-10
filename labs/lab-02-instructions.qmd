@@ -31,23 +31,21 @@ Make sense? If you have questions before you begin, just post an [issue](https:/
 For *each* network you created, do the following:  
 
 1. Create an adjacency matrix of the network using the `matrix()` function.
-2. Create an object of class `network`. 
-3. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
-4. Describe how each of your modifications helps improve the interpretability of the network.
-5. Calculate the density, identify the number of components, and report the diameter of the network.
-6. What do the descriptive features of the network (i.e. density, components, diameter) tell you about the structure of the network?
+1. Create an object of class `network`. 
+1. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
+1. Calculate the density of the network.
 
 <br>
 
 ## Analytical Briefing
 
-In your briefing, address the following:  
+In your briefing, address the following for each of your networks:  
 
   - Introduce your network, briefly describe it and explain what the nodes and ties represent
-  - Discuss your visualizations, focusing your modifications to the plots improve the interpretability of the network
-  - Interpret the descriptive measures (i.e. the density, number of components, and diameter) and explain what these measures tell you about the overall structure of the networks
-  - Discuss what insights an analyst might gain from the visualization and descriptive measures
-  - Compare the two networks focusing your attention on the similarities and differences do you observe based on your visualization and the descriptive measures
+  - Discuss your visualization, focusing on how your modifications to the plots improve the interpretability of the network
+  - Interpret the density and explain what this measure tells you about the overall structure of the network
+  - Discuss what insights an analyst might gain from your analysis
+  - Compare the two networks focusing your attention on the similarities and differences you observe in your analysis
 
 ### Expectations
 
@@ -66,7 +64,7 @@ Download the [template for this lab](../labs/templates/lab-02-LastName.zip?raw=t
 
 ### Knitting to HTML
 
-When you have completed your assignment, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
+When you have completed your assignment using the template, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
 
 <br>
 

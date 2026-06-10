@@ -103,7 +103,7 @@ Download the [template for this lab](../labs/templates/lab-03-LastName.zip?raw=t
 
 ### Knitting to HTML
 
-When you have completed your assignment, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
+When you have completed your assignment using the template, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
 
 <br>
 

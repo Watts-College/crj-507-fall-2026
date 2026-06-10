@@ -2,10 +2,6 @@
 title: "Lab 01 - Introduction to Network Analysis - INSTRUCTIONS"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set( echo = TRUE )
-```
-
 # Introduction
 
 For the first lab, I would like you to construct a network. Think about a type of relationship that is interesting, important, etc., and what it connects. Whatever floats your boat. It can be a real example from your life, something fictitious, anything really. The *only* restriction is that it should have <u>at least</u> 20 nodes.
@@ -37,7 +33,7 @@ After completing Part I, create a new network and repeat Part I on that network.
 
 ## Analytical Briefing
 
-In addition to submitting your written assignment, record a 3–5 minute *Analytical Briefing* discussing the two networks you created.
+In addition to submitting your written assignment, record a 3–5 minute *Analytical Briefing*, discussing the two networks you created.
 
 In your briefing, address the following:  
 
@@ -48,8 +44,7 @@ In your briefing, address the following:
 
 ### Expectations
 
-Your briefing should demonstrate that you understand the basic concepts introduced in this lab and can correctly apply network terminology to real-world examples. 
-Focus on explaining your reasoning and interpretations rather than simply reading answers from your written assignment.
+Your briefing should demonstrate that you understand the basic concepts introduced in this lab and can correctly apply network terminology to real-world examples. Focus on explaining your reasoning and interpretations rather than simply reading answers from your written assignment.
 
 <br>
 ____
@@ -57,12 +52,9 @@ ____
 # How to Submit
 
 For your written work, upload a `.pdf` (or `.docx`) file and for your Analytical Briefing upload a `.mp4` file. 
-Both files should be updated to the appropriate link for this assignment on the Canvas page for this course.
+Both files should be uploaded to the appropriate link for this assignment on the Canvas page for this course: 
 
-Submit both your written assignment and Analytical Briefing through the appropriate assignment links on the course Canvas page.
-
-**Written Assignment**: Upload a `.pdf` or `.docx` file containing your responses to the lab questions.
-
-**Analytical Briefing**: Upload an `.mp4` video file containing your screen-recorded *Analytical Briefing*.
+  * **Written Assignment**: Upload a `.pdf` or `.docx` file containing your responses to the lab questions. 
+  * **Analytical Briefing**: Upload an `.mp4` video file containing your screen-recorded *Analytical Briefing*.
 
 Before submitting, verify that both files open correctly and that your video includes clear audio narration.

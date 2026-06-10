@@ -5,25 +5,13 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     df_print: paged
-    theme: flatly
+    theme: minty
     highlight: haddock
     toc: yes
     toc_float: yes
     code_fold: show
     self_contained: true
 ---
-
-```{r setup, include = FALSE}
-
-knitr::opts_chunk$set(echo = TRUE, 
-                      message = FALSE, 
-                      warning = FALSE, 
-                      fig.width = 10, 
-                      fig.height = 6)
-
-```
-
-<br>
 
 ```{r load_packages}
 # make sure these are installed on your machine before knitting
@@ -43,9 +31,10 @@ library( sna )
 
 As indicated in the instructions, for *each* network you created, do the following:  
 
-1. Create an adjacency matrix using the `matrix()` function.
-2. Create an object of class `network`. 
-3. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
+1. Create an adjacency matrix of the network using the `matrix()` function.
+1. Create an object of class `network`. 
+1. Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.  
+1. Calculate the density of the network.
 
 As a refresher, review the example below.
 
@@ -143,17 +132,11 @@ rm( list = ls() )
 
 ----
 
-# Part I
+# First Network
 
-<br>
+## Step 1
 
-## First Network
-
-<br>
-
-### Step 1
-
-Create the network using the `matrix()` function.
+Create an adjacency matrix of the network using the `matrix()` function.
 
 ```{r}
 
@@ -163,7 +146,7 @@ Create the network using the `matrix()` function.
 
 <br>
 
-### Step 2
+## Step 2
 
 Create an object of class `network`. 
 
@@ -175,7 +158,7 @@ Create an object of class `network`.
 
 <br>
 
-### Step 3
+## Step 3
 
 Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
 
@@ -187,28 +170,25 @@ Plot the network using the `gplot()` function. Modify the plot using at least th
 
 <br>
 
-### Step 4
+## Step 4
 
-Describe how each of your modifications helps improve interpretability of the network.
+Calculate the density of the network.
 
-**Response**: 
-*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
+```{r}
+
+# Your code here
+
+```
 
 <br>
 
 ----
 
-# Part II
+# Second Network
 
-<br>
+## Step 1
 
-## Second Network
-
-<br>
-
-### Step 1
-
-Create the network using the `matrix()` function.
+Create an adjacency matrix of the network using the `matrix()` function.
 
 ```{r}
 
@@ -218,7 +198,7 @@ Create the network using the `matrix()` function.
 
 <br>
 
-### Step 2
+## Step 2
 
 Create an object of class `network`. 
 
@@ -230,7 +210,7 @@ Create an object of class `network`.
 
 <br>
 
-### Step 3
+## Step 3
 
 Plot the network using the `gplot()` function. Modify the plot using at least three arguments in the `gplot()` function.    
 
@@ -240,52 +220,14 @@ Plot the network using the `gplot()` function. Modify the plot using at least th
 
 ```
 
-### Step 4
-
-Describe how each of your modifications helps improve interpretability of the network.
-
-**Response**: 
-*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
-
-<br>
 <br>
 
-<center>------------<h4> **DELETE THIS LINE & ALL LINES BELOW BEFORE SUBMITTING** </h4>------------</center>
+## Step 4
 
-<br>
-<br>
+Calculate the density of the network.
 
-## Knitting to HTML
+```{r}
 
-When you have completed your assignment, click the "Knit" button to render your `.RMD` file into a `.HTML` report.
+# Your code here
 
-<br>
-
-### Special Instructions
-
-Upload both your `.RMD` and `.HTML` files to the appropriate link for this assignment on the Canvas page for this course.
-
-<br>
-
-### Before You Submit
-
-Remember to ensure the following before submitting your assignment.
-
-1. Name your files using this format: **Lab-##-LastName.rmd** and **Lab-##-LastName.html**
-2. Show both the solution for your code and write out your answers in the body text 
-
-See [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml) for examples of common conventions.
-
-<br>
-<br>
-
-### Common Knitting Issues
-
-`.RMD` files are knit into `.HTML` and other formats procedural, or line-by-line.
-
-* An error in code when knitting will halt the process; error messages will tell you the specific line with the error
-* Certain functions like `install.packages()` or `setwd()` are bound to cause errors in knitting 
-* Altering a dataset or variable in one chunk will affect their use in all later chunks
-* If an object is "not found", make sure it was created or loaded with `library()` in a previous chunk
-
-**If All Else Fails:** If you cannot determine and fix the errors in a code chunk that's preventing you from knitting your document, add `eval = FALSE` inside the brackets of `{r}` at the beginning of a chunk to ensure that R does not attempt to evaluate it, that is: `{r eval = FALSE}`. This will prevent an erroneous chunk of code from halting the knitting process.  
+```
