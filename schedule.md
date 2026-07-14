@@ -5,8 +5,8 @@ title: Schedule
 base: 'https://github.com/Watts-College/crj-507-fall-2026/raw/main/'
 
 canvas:
-  assignment_url: 'https://canvas.asu.edu/courses/244904/assignments'
-  yellowdig_url: 'https://canvas.asu.edu/courses/244904/assignments/6928137'
+  assignment_url: 'https://canvas.asu.edu/courses/262076/assignments'
+  yellowdig_url: 'https://canvas.asu.edu/courses/262076/assignments/7475110'
 
 lab-due-dates:
   lab-01: 'WED August 26'
@@ -59,27 +59,38 @@ I am passionate about social network analysis and I hope to pass that passion on
 
 ## What is Social Network Analysis?
 
-Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e., a network). Network science takes these relational structures as the primary domain of interest. In so doing, research questions take the following forms: How does the network matter? What affects the network? Network analysis is the set of tools used to study relational variables. A set of methods for systematically understanding and identifying connections among actors. This course will introduce you to these tools and their application to problems in the field of criminology and criminal justice.
+Network science is an approach to science that views the world as being composed of systems of actors connected through relational ties (i.e., a network). 
+Network science takes these relational structures as the primary domain of interest. 
+In so doing, research questions take the following forms: How does the network matter? What affects the network? 
+Network analysis is the set of tools used to study relational variables. 
+A set of methods for systematically understanding and identifying connections among actors. 
+This course will introduce you to these tools and their application to problems in the field of criminology and criminal justice.
 
 In this course, you will learn how to use R and RStudio to import, analyze, and report on social networks.
 
 ## Introducing R
 
-R is a 30-year-old statistical language created by New Zealand statisticians Robert Gentleman and Ross Ihaka as a free alternative to proprietary software for their students at the University of Auckland. In fact, its rich lineage can be directly traced to inventor and scientist Alexander Graham Bell.
+R is a 30-year-old statistical language created by New Zealand statisticians Robert Gentleman and Ross Ihaka as a free alternative to proprietary software for their students at the University of Auckland. 
+In fact, its rich lineage can be directly traced to inventor and scientist Alexander Graham Bell.
 
 <br>
 
 ## The R Toolkit
 
-In this course, we cover the foundations of social network analysis and show how to implement these topics with the R language. In order to create robust and dynamic analysis, we need to use a couple of tools that were built to leverage the power of R and create compelling narratives.
+In this course, we cover the foundations of social network analysis and show how to implement these topics with the R language. 
+In order to create robust and dynamic analysis, we need to use a couple of tools that were built to leverage the power of R and create compelling narratives.
 
-**RStudio** helps you manage projects by organizing files, scripts, packages, and output. **Markdown** is a simple formatting convention that allows you to create publication-quality documents. **R Markdown** is a specific version of Markdown that allows you to combine text and code to create data-driven documents.
+**RStudio** helps you manage projects by organizing files, scripts, packages, and output. 
+**Markdown** is a simple formatting convention that allows you to create publication-quality documents. 
+**R Markdown** is a specific version of Markdown that allows you to combine text and code to create data-driven documents.
 
 <br>
 
 ## R Markdown
 
-You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files. You can learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html). But to give you a glimpse, you can view R Markdown in action in the below image:
+You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files. 
+You can learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html). 
+But to give you a glimpse, you can view R Markdown in action in the below image:
 
 <br>
 
@@ -100,7 +111,7 @@ RStudio is a graphical user interface (GUI) and integrated developer environment
 
 #### RStudio: A Guided Tour
 
-The following video provides a tour of the RStudio interface and key components for getting started.
+The following [video](https://youtu.be/xgPwDlAtuNI) provides a tour of the RStudio interface and key components for getting started.
 
 * What is RStudio?
 * Executing and scripting commands
@@ -116,27 +127,6 @@ autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
 <br>
-
-Visit the [video](https://youtu.be/xgPwDlAtuNI) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) Introduction & Defining Integrated Development Environments (IDE)
-* (**00:41**) The Five Key Components of RStudio
-* (**02:17**) Using the Console vs. Using Scripts
-* (**04:29**) Shortcuts: Jumping Around, Full Screen, Saving
-* (**05:27**) How to Save an R Script
-* (**06:36**) Shortcuts: Moving Between & Exiting Scripts
-* (**07:19**) "Session" & Setting Working Directories
-* (**08:07**) Exporting Data as CSV Files
-* (**09:04**) "Tools" & Customizing Your RStudio Interface
-* (**10:02**) "Help" & Accessing Cheat Sheets
-* (**10:42**) Global Environment & Objects
-* (**13:20**) RStudio's Data Import Wizard
-* (**14:35**) "Files" & Directory Contents
-* (**14:57**) "Plots" & Graphics in R
-* (**15:44**) "Help" & Documentation
-* (**17:01**) Conclusions
-
-<br>
 <br>
 
 ## Easy Formatting with Markdown
@@ -147,7 +137,7 @@ Markdown is a "lightweight", easy-to-learn syntax that allows you to format lang
 
 #### Markdown Basics
 
-The following video provides a brief introduction to Markdown fundamentals.
+The following [video](https://youtu.be/oXgFrUq6btQ) provides a brief introduction to Markdown fundamentals.
 
 * Headers & Sub-Headers
 * Boldface & Italicization
@@ -163,32 +153,18 @@ autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
 <br>
-
-Visit the [video](https://youtu.be/oXgFrUq6btQ) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) What Is Markdown?
-* (**01:17**) Demonstrating Markdown in RStudio
-* (**02:00**) Typing Human-Readable Language
-* (**02:27**) Creating Headers
-* (**02:57**) Creating Sub-Headers
-* (**04:35**) Formatting Boldface & Italicization
-* (**05:58**) Creating Unordered & Ordered Lists
-* (**07:04**) Creating List Sub-Items
-* (**08:23**) Formatting Hyperlinks
-* (**09:38**) Conclusion
-
-<br>
 <br>
 
 ## What Is R Markdown?
 
-R Markdown is one of the most powerful tools you'll learn. It allows the synthesis of human language and code to perform processing and analysis tasks while explaining them to broad audiences.
+R Markdown is one of the most powerful tools you'll learn. 
+It allows the synthesis of human language and code to perform processing and analysis tasks while explaining them to broad audiences.
 
 <br>
 
 #### R Markdown: An Introduction
 
-The following video provides a tutorial and demonstration of R Markdown.
+The following [video](https://youtu.be/ALwHaNzQub0) provides a tutorial and demonstration of R Markdown.
 
 * Locating Lab Assignment Templates
 * Creating New R Markdown Files
@@ -205,20 +181,6 @@ autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
 <br>
-
-Visit the [video](https://youtu.be/ALwHaNzQub0) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) Introduction & Contents
-* (**00:22**) Locating R Markdown Templates
-* (**01:20**) Creating a New R Markdown File
-* (**02:36**) Machine- & Human-Readable Code
-* (**05:41**) Creating & Formatting from Scratch
-* (**06:19**) Creating Code Chunks
-* (**07:37**) Code Chunk Options
-* (**09:55**) Lab Templates
-* (**12:25**) Discussion
-
-<br>
 <br>
 
 ## Understanding GitHub Issues
@@ -229,7 +191,7 @@ GitHub Issues allow you to quickly troubleshoot issues with instructors and peer
 
 #### GitHub Issues: A Tutorial
 
-The following video provides a tutorial for using GitHub Issues.
+The following [video](https://youtu.be/cHBFusiPyLw) provides a tutorial for using GitHub Issues.
 
 * Locating the Issues page
 * Exploring previously posted Issues
@@ -244,23 +206,6 @@ autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
 <br>
-
-Visit the [video](https://youtu.be/cHBFusiPyLw) to navigate using timestamps in the description or bookmarks in the progress bar.
-
-* (**00:00**) Introduction
-* (**00:55**) Getting to the Issues Page: A Shortcut
-* (**01:42**) The Issues Page
-* (**02:08**) Exploring Posted Issues
-* (**02:40**) Viewing an Example Issue
-* (**03:24**) Recommended: Browse Issues Before Posting
-* (**03:46**) Creating a New Issue: The Title
-* (**04:18**) Labeling Issues & Assigning Collaborators
-* (**04:46**) The Body Text: Explaining Your Issue
-* (**05:45**) Examples of Best Practices
-* (**06:19**) Formatting with Markdown
-* (**07:15**) Conclusion
-
-<br>
 <br>
 
 *** { @unit = "", @title = "Getting Help", @reading, @foldout  }
@@ -271,9 +216,11 @@ Social network analysis is a very social endeavor, and real-world analytics proj
 
 This course is designed to be interactive, and a lot of learning occurs by practicing the technical jargon from the field and learning how to talk about network data and tools for analysis.
 
-Learning how to seek help and use discussion boards will accelerate learning and facilitate collaboration. Social coding tools like GitHub use these features extensively.
+Learning how to seek help and use discussion boards will accelerate learning and facilitate collaboration. 
+Social coding tools like GitHub use these features extensively.
 
-This course is going to throw a lot at you, but also provide a lot of support. Over these first couple of weeks feel free to reach out for anything you might need!
+This course is going to throw a lot at you, but also provide a lot of support. 
+Over these first couple of weeks feel free to reach out for anything you might need!
 
 
 <br>
