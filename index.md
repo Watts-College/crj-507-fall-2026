@@ -168,7 +168,7 @@ While specific instructions will be given for each video, in general you will re
 The video should be between 3–7 minutes and use <u>your own words</u> to explain your work. 
 You should focus on interpretation and analysis, rather than simply reading answers from the assignment.
 
-On the day **before** the lab is due, I will grade the labs and provide feedback, noting any changes you might consider to improve your grade (if needed).
+On the day **before** the lab is due, I will grade early lab submissions and provide feedback, noting any changes you might consider to improve your grade (if needed).
 This means that if you want to get feedback, turn it in early!
 *NOTE*: Weekly labs <u>can</u> be **resubmitted** once. You can make revisions to your lab, based on my feedback, and I will regrade it (once). 
 For example, if you turn in a lab, receive a score of 7, and then revise the lab based on my feedback, you could earn a 10. 
@@ -274,11 +274,12 @@ For more information, refer to the [**Office of the Provost's Guide to Academic 
 
 # IV. AI Policy
 
-Use of generative AI tools (e.g., ChatGPT, Copilot, Gemini, Claude, Code Llama, etc.) is **strictly prohibited** in this course. This includes, but is not limited to, using AI tools to:
+Use of generative AI tools (e.g., ChatGPT, Copilot, Gemini, Claude, Code Llama, etc.) is **strictly prohibited** in this course. 
+This includes, but is not limited to, using AI tools to:
 - Write or edit code  
 - Debug code  
 - Generate explanations, summaries, or interpretations  
-- Complete any portion of assignments, quizzes, or projects  
+- Complete any portion of labs, discussions, or the final project  
 - Transform, rewrite, or analyze course materials or templates  
 
 You are expected to complete all work independently using only the materials and code provided in the course. 
@@ -290,10 +291,15 @@ If an assignment contains AI-generated content or unauthorized code, the assignm
 
 Note that all course templates used for the labs are **copyrighted instructional materials**. 
 It is a violation of **course policy** and **copyright law** to upload or paste any portion of these materials into a generative AI system or external tool for processing, rewriting, or analysis.
-You may use the templates **only** for completing your coursework in this class. Redistribution, uploading, or repurposing of these materials is strictly prohibited.
+You may use the templates **only** for completing your labs and final project in this class. 
+Redistribution, uploading, or repurposing of these materials is strictly prohibited.
 
-**Why** this policy? This course is about learning the materials I have provided. 
+**Why** this policy? 
+This course is about learning the materials I have provided. 
 Using generative AI bypasses these learning objectives and prevents meaningful assessment of your work.
+Will you use AI tools if you continue with social network analysis? 
+Absolutely. But, *this course* is not about learning how to use AI tools. 
+It is about learning social network analysis and demonstrating your knowledge of that material.
 
 # V. Course Schedule
 
