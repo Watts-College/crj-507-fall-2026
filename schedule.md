@@ -804,7 +804,8 @@ How does betweenness centrality operate as an intervention procedure in their st
 
 ## Lab 4 - Closeness/Betweenness Centrality
 
-In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
+In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. 
+We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-04-instructions.html')">LAB 4 Instructions</a>
 
@@ -838,7 +839,11 @@ Click to download the lab template.
 
 ## Description
 
-So far, we have worked with networks that have one set of nodes and one set of edges. But not all of the networks we want to examine have a single node set. More complex relational structures have multiple partitions of node sets. Bipartite graphs allow us to represent networks that have two partitions of nodes. This section of the course will introduce bipartite graphs and get you started working with two-mode networks.
+So far, we have worked with networks that have one set of nodes and one set of edges. 
+But not all of the networks we want to examine have a single node set. 
+More complex relational structures have multiple partitions of node sets. 
+Bipartite graphs allow us to represent networks that have two partitions of nodes. 
+This section of the course will introduce bipartite graphs and get you started working with two-mode networks.
 
 ## Learning Objectives
 
@@ -861,11 +866,14 @@ Required reading for this unit includes:
 
 ## Lab Assignment
 
-Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. You will work with two networks. 
+Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. 
+You will work with two networks. 
 
-First, you will use data collected from [Paul Revere's Ride](https://global.oup.com/ushe/product/paul-reveres-ride-9780195098310?cc=us&lang=en&) by David Fischer. In the book, Fischer documents Revere's connections through various affiliations in locations and how these influenced history. The Paul Revere conspiracy dataset concerns relationships between 254 people and their affiliations with seven different organizations in Boston. The network is two-mode, with 254 actors and 7 organizations ("events"). 
+First, you will use a network analyzed in [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419) of terrorist organizations. 
+The network is two-mode and composed of 394 organizations and their connections to terrorist events in 65 countries. 
 
-Second, you will use the Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. In particular, this data is related to the Salast movement that was founded by Aburajak Janjalani, a native terrorist of the Southern Philippines in 1991. ASG is active in kidnapping and other terrorist attacks. The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
+Second, you will use the Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. 
+The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
 
 <br>
 <br>
@@ -907,9 +915,12 @@ The following checklist will help you stay organized in your fifth week.
 
 ### The Efficiency/Security Trade-Off
 
-One of the most discussed topics in the study of illicit or covert networks is the "efficiency/security trade-off". As discussed in the article [The efficiency/security trade-off in criminal networks](https://www.sciencedirect.com/science/article/pii/S0378873306000268), these organizations have to decide whether to emphasize efficiency or security, both of which influence network structure.
+One of the most discussed topics in the study of illicit or covert networks is the "efficiency/security trade-off". 
+As discussed in the article [The efficiency/security trade-off in criminal networks](https://www.sciencedirect.com/science/article/pii/S0378873306000268), these organizations have to decide whether to emphasize efficiency or security, both of which influence network structure.
 
-For your discussion this week, think about a network that you are interested in studying (or are currently studying) and discuss the "efficiency/security trade-off". Is your network more efficiency-focused or security-focused? Or does it depend?
+For your discussion this week, think about a network that you are interested in studying (or are currently studying) and discuss the "efficiency/security trade-off". 
+Is your network more efficiency-focused or security-focused? 
+Or does it depend?
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
 
@@ -923,11 +934,14 @@ For your discussion this week, think about a network that you are interested in 
 
 ## Lab 5 - Bipartite Graphs and Two-Mode Networks
 
-Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. You will work with two networks. 
+Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. 
+You will work with two networks. 
 
-First, you will use data collected from [Paul Revere's Ride](https://global.oup.com/ushe/product/paul-reveres-ride-9780195098310?cc=us&lang=en&) by David Fischer. In the book, Fischer documents Reveres' connections through various affiliations in locations and how these influenced history. The Paul Revere conspiracy dataset concerns relationships between 254 people and their affiliations with seven different organizations in Boston. The network is two-mode, with 254 actors and 7 organizations ("events"). 
+First, you will use a network analyzed in [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419) of terrorist organizations. 
+The network is two-mode and composed of 394 organizations and their connections to terrorist events in 65 countries. 
 
-Second, you will use the Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. In particular, this data is related to the Salast movement that was founded by Aburajak Janjalani, a native terrorist of the Southern Philippines in 1991. ASG is active in kidnapping and other terrorist attacks. The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
+Second, you will use the Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. 
+The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-05-instructions.html')">LAB 5 Instructions</a>
 
@@ -961,7 +975,10 @@ Click to download the lab template. Modify and submit using the instructions.
 
 ## Description
 
-As we saw in the last section, networks with complex node sets can be represented using bipartite graphs. A common approach in research is to reduce a bipartite graph to a unipartite graph so as to use the tools developed for networks with a single set of nodes. Projection is the process by which we map the connectivity between modes to a single mode. This week will focus on network projection.
+As we saw in the last section, networks with complex node sets can be represented using bipartite graphs. 
+A common approach in research is to reduce a bipartite graph to a unipartite graph so as to use the tools developed for networks with a single set of nodes. 
+Projection is the process by which we map the connectivity between modes to a single mode. 
+This week will focus on network projection.
 
 ## Learning Objectives
 
@@ -984,7 +1001,8 @@ Required reading for this unit includes:
 
 ## Lab Assignment
 
-Lab 6 will serve to familiarize you with projecting bipartite graphs to unipartite graphs in R. For this lab, we will revisit the networks we used in [Lab 5 - Bipartite Graphs and Two-Mode Networks](../labs/lab-05-instructions.html). 
+Lab 6 will serve to familiarize you with projecting bipartite graphs to unipartite graphs in R. 
+For this lab, we will revisit the networks we used in [Lab 5 - Bipartite Graphs and Two-Mode Networks](../labs/lab-05-instructions.html). 
 
 <br>
 <br>
@@ -1024,11 +1042,13 @@ The following checklist will help you stay organized in your sixth week.
 
 ## Focused Interventions
 
-What good is a network analysis if we can't put it into action? A common network intervention is the "group-based violence intervention," where the goal is to use the network to disseminate credible threats to actors in a network.
+What good is a network analysis if we can't put it into action? 
+A common network intervention is the "group-based violence intervention," where the goal is to use the network to disseminate credible threats to actors in a network.
 
 An example of this approach is discussed in the article [Choosing Representatives to Deliver the Message in a Group Violence Intervention](https://www.tandfonline.com/doi/full/10.1080/24751979.2019.1630661) by Andrew Wheeler, Sarah McLean, Kelly Becker, and Robert Worden.
 
-For your discussion this week, review the article above and think about how such an intervention might be used in a network you are interested in studying (or currently studying). For this article, don't get lost in the details; think big picture in terms of what the "group-based violence intervention" model does and how analysts go about locating individuals who should be the ones to disseminate the message.
+For your discussion this week, review the article above and think about how such an intervention might be used in a network you are interested in studying (or currently studying). 
+For this article, don't get lost in the details; think big picture in terms of what the "group-based violence intervention" model does and how analysts go about locating individuals who should be the ones to disseminate the message.
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
 
@@ -1042,7 +1062,8 @@ For your discussion this week, review the article above and think about how such
 
 ## Lab 6 - Projection
 
-Lab 6 will serve to familiarize you with projecting bipartite graphs to unipartite graphs in R. For this lab, we will revisit the networks we used in [Lab 5 - Bipartite Graphs and Two-Mode Networks](../labs/lab-05-instructions.html). 
+Lab 6 will serve to familiarize you with projecting bipartite graphs to unipartite graphs in R. 
+For this lab, we will revisit the networks we used in [Lab 5 - Bipartite Graphs and Two-Mode Networks](../labs/lab-05-instructions.html). 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-06-instructions.html')">LAB 6 Instructions</a>
 
@@ -1088,7 +1109,9 @@ The following checklist will help you stay organized for your final week.
 
 ## Final Project: Network Report
 
-The final project will use all of the information you have learned in this course to create a report on a network. For the final project, you will use data from the City of Phoenix [Open Data Portal](https://www.phoenixopendata.com/). Specifically, you will use co-arrest data. These data represent incidents where individuals were arrested together. 
+The final project will use all of the information you have learned in this course to create a report on a network. 
+For the final project, you will use data from the City of Phoenix [Open Data Portal](https://www.phoenixopendata.com/). 
+Specifically, you will use co-arrest data. These data represent incidents where individuals were arrested together. 
 
 For the final project, imagine that you work for a police department and your supervisor has asked you to create a report on co-offending networks. 
 
