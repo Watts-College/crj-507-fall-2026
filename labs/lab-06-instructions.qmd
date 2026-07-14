@@ -41,7 +41,7 @@ For the *person* matrix you created in step 2, do the following:
 6. Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package.
 7. Calculate the mean  degree, closeness, and betweenness centrality scores. 
 8. Calculate the graph centralization scores for degree, closeness, and betweenness centrality.  
-9. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality). Be sure to use the `vertex_rescale()` functiont to aid with the visualization.
+9. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality). Be sure to use the `vertex_rescale()` function to aid with the visualization.
 
 <br>
 
