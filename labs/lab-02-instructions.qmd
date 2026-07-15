@@ -13,7 +13,9 @@ The purpose of this lab is to familiarize yourself with how networks are created
 
 <br>
 
-In [Lab 1](../labs/lab-01-instructions.html), you created two networks. I would like you to continue working with those networks for *this* lab. Please review the [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html) and [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html) tutorials prior to beginning this lab. 
+In [Lab 1](../labs/lab-01-instructions.html), you created two networks. 
+I would like you to continue working with those networks for *this* lab. 
+Please review the [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html), [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html), and [Network Description in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-net-description.html) tutorials prior to beginning this lab. 
 You will also discuss the descriptive properties of your network. So, be sure to review the [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html) chapter of the textbook as you go through that part of the lab.
 
 Two **IMPORTANT** points:  

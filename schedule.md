@@ -434,6 +434,7 @@ Once you have completed this section, you will be able to:
 * Describe four properties of a social network
 * Build network data structures in R
 * Plot network data in R
+* Learn to calculate four properties of a social network in R
 
 ## Assigned Reading
 
@@ -445,6 +446,7 @@ Required reading for this unit includes:
 * Software Tutorials
     * [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html)
     * [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html)
+    * [Network Description in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-net-description.html)
 
 ## Lab Assignment
 
@@ -467,6 +469,7 @@ Required:
 * Software Tutorials
     * [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html)
     * [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html)
+    * [Network Description in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-net-description.html)
 
 <br>
 <br>
@@ -478,7 +481,7 @@ Required:
 The following checklist will help you stay organized in your second week.
 
 - [ ] Complete Assigned Textbook Chapters: [Network Data Structures](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-data-structures.html) and [Network Description](https://jacobtnyoung.github.io/snaca-textbook/snaca-net-description.html)
-- [ ] Complete Assigned Software Tutorials: [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html) and [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html)
+- [ ] Complete Assigned Software Tutorials: [Working with Networks in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-network-data.html), [Basics of Network Visualization](https://jacobtnyoung.github.io/snaca-r/snaca-r-visualization.html), and [Network Description in R](https://jacobtnyoung.github.io/snaca-r/snaca-r-net-description.html)
 - [ ] Post & Exchange on Discussion Topic, 20 Points Max (See Below)
 - [ ] Complete & Submit [Lab 2](../labs/lab-02-instructions.html) (See Below)
 
