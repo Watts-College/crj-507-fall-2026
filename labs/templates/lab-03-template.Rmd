@@ -33,12 +33,11 @@ knitr::opts_chunk$set( echo = TRUE,
 ```{r load_packages}
 
 # make sure you have installed the SNACpack package
-# devtools::install_github( "jacobtnyoung/SNACpack" )
 # be sure to review the Getting Started with R chapter in
 # the Social Network Analysis for Crime Analysts using R textbook
 # if you have questions about how to install SNACpack
 #
-# Note that you cannot knit with an install.packages() function
+# note that you cannot knit with an install.packages() function
 # called in your RMD file. You only have to install packages
 # once, then they are loaded using the library() function.
 
@@ -78,27 +77,7 @@ rm( list = ls() )
 
 <br>
 
-### 2. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.  
-
-**Response**: 
-*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-### 3. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
-
-```{r}
-
-# Your code here
-
-```
-
-**Response**: 
-*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-### 4. Calculate the degree centrality score for each actor using the `rowSums()` function. 
+### 2. How could you modify this plot to improve interpretability for a lay audience? Make at least <u>three changes</u> using the arguments in `gplot()`. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
 
 ```{r}
 
@@ -108,7 +87,7 @@ rm( list = ls() )
 
 <br>
 
-### 5. Plot the network using the `gplot()` function where nodes are sized by their degree centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
+### 3. Calculate the degree centrality score for each actor using the `rowSums()` function. 
 
 ```{r}
 
@@ -118,7 +97,17 @@ rm( list = ls() )
 
 <br>
 
-### 6. Calculate the standardized degree centrality score using the equation from the readings for this week.
+### 4. Plot the network using the `gplot()` function where nodes are sized by their degree centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
+
+```{r}
+
+# Your code here
+
+```
+
+<br>
+
+### 5. Calculate the standardized degree centrality score using the equation from the readings for this week.
 
 ```{r}
 
@@ -130,7 +119,7 @@ rm( list = ls() )
   
 <br>
 
-### 7. Calculate the mean degree centrality score.
+### 6. Calculate the mean degree centrality score.
 
 ```{r}
 
@@ -140,7 +129,7 @@ rm( list = ls() )
   
 <br>
 
-### 8. Calculate the graph centralization score for degree centrality using the `centralization()` function in the `sna` package. 
+### 7. Calculate the graph centralization score for degree centrality using the `centralization()` function in the `sna` package. 
   
 ```{r}
 
@@ -166,35 +155,7 @@ rm( list = ls() )
 
 <br>
 
-### 2. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
-
-**Response**: 
-*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-### 3. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
-
-```{r}
-
-# Your code here
-
-```
-
-**Response**: 
-*ADD YOUR RESPONSE HERE (THEN DELETE THIS STATEMENT)*
-
-<br>
-
-### 4. Calculate the indegree and outdegree centrality scores for each actor using the `rowSums()` and `colSums()` functions.
-
-```{r}
-
-# Your code here
-
-```
-
-### 5. Plot the network using the `gplot()` function where nodes are sized by their <u>indegree</u> centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
+### 2. How could you modify this plot to improve interpretability for a lay audience? Make at least <u>three changes</u> using the arguments in `gplot()`. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
 
 ```{r}
 
@@ -204,7 +165,15 @@ rm( list = ls() )
 
 <br>
 
-### 6. Plot the network using the `gplot()` function where nodes are sized by their <u>outdegree</u> centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
+### 3. Calculate the indegree and outdegree centrality scores for each actor using the `rowSums()` and `colSums()` functions.
+
+```{r}
+
+# Your code here
+
+```
+
+### 4. Plot the network using the `gplot()` function where nodes are sized by their <u>indegree</u> centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
 
 ```{r}
 
@@ -214,7 +183,7 @@ rm( list = ls() )
 
 <br>
 
-### 7. Calculate the standardized indegree and outdegree centrality scores using the equation from the readings for this week. 
+### 5. Plot the network using the `gplot()` function where nodes are sized by their <u>outdegree</u> centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
 
 ```{r}
 
@@ -224,7 +193,7 @@ rm( list = ls() )
 
 <br>
 
-### 8. Calculate the mean indegree and outdegree centrality scores.
+### 6. Calculate the standardized indegree and outdegree centrality scores using the equation from the readings for this week. 
 
 ```{r}
 
@@ -234,7 +203,17 @@ rm( list = ls() )
 
 <br>
 
-### 9. Calculate the graph centralization score for indegree and outdegree centrality using the `centralization()` function in the `sna` package. 
+### 7. Calculate the mean indegree and outdegree centrality scores.
+
+```{r}
+
+# Your code here
+
+```
+
+<br>
+
+### 8. Calculate the graph centralization score for indegree and outdegree centrality using the `centralization()` function in the `sna` package. 
 
 ```{r}
 
@@ -248,4 +227,4 @@ rm( list = ls() )
 
 ## Part III: Your Networks
 
-*Add your code setup here according to the instructions above, then DELETE THESE STATEMENT*
+*Add your code setup here according to the instructions above, then DELETE THIS STATEMENT*

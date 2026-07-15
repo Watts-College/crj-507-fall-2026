@@ -27,8 +27,7 @@ This network is available in `SNACpack` as an object of class `network` and is l
 For the `drug_net` network, do the following:  
 
   1. Plot the network using this command: `gplot( drug_net )`.
-  1. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
-  1. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
+  1. How could you modify this plot to improve interpretability for a lay audience? Make at least <u>three changes</u> using the arguments in `gplot()`. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
   1. Calculate the degree centrality score for each actor using the `rowSums()` function. 
   1. Plot the network using the `gplot()` function where nodes are sized by their degree centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
   1. Calculate the standardized degree centrality score using the equation from the readings for this week. 
@@ -46,8 +45,7 @@ This network is available in `SNACpack` and is called `heroin_dealing_net`. To r
 For the `heroin_dealing_net` network, do the following:  
 
   1. Plot the network using this command: `gplot( heroin_dealing_net )`.
-  1. Describe how you would modify this plot to improve interpretability for a lay audience. Suggest at least <u>three changes</u> and explain why they matter. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
-  1. Implement the proposed changes using `gplot()` and describe how each change affects how we see the network.
+  1. How could you modify this plot to improve interpretability for a lay audience? Make at least <u>three changes</u> using the arguments in `gplot()`. Be sure to pay attention to the type of network it is and how best to represent the information in the network.
   1. Calculate the indegree and outdegree centrality scores for each actor using the `rowSums()` and `colSums()` functions. 
   1. Plot the network using the `gplot()` function where nodes are sized by their <u>indegree</u> centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
   1. Plot the network using the `gplot()` function where nodes are sized by their <u>outdegree</u> centrality score (be sure to use the `vertex_rescale()` function to aid with correct sizing).
