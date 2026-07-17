@@ -28,15 +28,14 @@ In Parts I and II of this lab we will revisit the networks we used in [Lab 3 - D
 
 ## Part I: Working with an Undirected Network
 
-For this part of the lab, you will again use data from [Margaret R. Weeks, Scott Clair, Stephen P. Borgatti, Kim Radda & Jean J. Schensul's analysis](https://link.springer.com/article/10.1023/A:1015457400897) of drug users in Hartford, Connecticut. This network is available in `SNACpack` as an object of class `network` and is labeled `drug_net`. To review documentation on the network, use this command: `?drug_net`.
+For this part of the lab, you will use data from [Paul Gill, Jeongyoon Lee, Karl Rethemeyer, John Horgan, & Victor Asal's analysis](https://www.tandfonline.com/doi/full/10.1080/03050629.2013.863190) of active Provisional IRA (PIRA) members between 1970 and 1998 in Northern Ireland. This network is available in `SNACpack` as an object of class `network` and is labeled `pira_net`. To review documentation on the network, use this command: `?pira_net`.
 
-For the `drug_net` network, do the following:  
+For the `pira_net` network, do the following:  
 
-  1. Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package.
-  2. Calculate and report the standardized degree, closeness, and betweenness centrality scores for each actor.
-  3. Calculate the mean closeness centrality score and the mean betweenness centrality score.
-  4. Calculate the graph centralization scores for degree, closeness, and betweenness centrality using the `centralization` function in the `sna` package.  
-  5. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+  1. Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package. For closeness, pay attention to whether the graph is disconnected and how to deal with calculating closesness centrality on such graphs.
+  1. Calculate the mean closeness centrality score and the mean betweenness centrality score.
+  1. Calculate the graph centralization scores for degree, closeness, and betweenness centrality using the `centralization` function in the `sna` package. Again, for closeness, pay attention to the structure of the graph and how this influences your calculation.
+  1. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 <br>
 
@@ -49,10 +48,9 @@ For this part of the lab, you will again use data from [Mangia Natarajan's study
 For the `heroin_dealing_net` network, do the following:  
 
   1. Calculate the indegree, outdegree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package.
-  2. Calculate and report the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.
-  3. Calculate the mean closeness centrality score and the mean betweenness centrality score.
-  4. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality using the `centralization` function in the `sna` package.  
-  5. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+  1. Calculate the mean closeness centrality score and the mean betweenness centrality score.
+  1. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality using the `centralization` function in the `sna` package.  
+  1. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 <br>
 

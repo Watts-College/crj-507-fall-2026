@@ -1,4 +1,4 @@
-# Script to run render labs ----
+# Script to run render lab instructions ----
 
 # load the libraries
 library( quarto )

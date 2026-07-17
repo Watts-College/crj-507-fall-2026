@@ -58,7 +58,8 @@ rm( list = ls() )
 
 <br>
 
-### 1. Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package.
+### 1. Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package. For closeness, pay attention to whether the graph is disconnected and how to deal with calculating closesness centrality on such graphs.
+
 
 ```{r}
 
@@ -68,7 +69,7 @@ rm( list = ls() )
 
 <br>
 
-### 2. Calculate and report the standardized degree, closeness, and betweenness centrality scores for each actor.
+### 2. Calculate the mean closeness centrality score and the mean betweenness centrality score.
 
 ```{r}
 
@@ -78,7 +79,7 @@ rm( list = ls() )
 
 <br>
 
-### 3. Calculate the mean closeness centrality score and the mean betweenness centrality score.
+### 3. Calculate the graph centralization scores for degree, closeness, and betweenness centrality using the `centralization` function in the `sna` package. Again, for closeness, pay attention to the structure of the graph and how this influences your calculation.
 
 ```{r}
 
@@ -88,17 +89,7 @@ rm( list = ls() )
 
 <br>
 
-### 4. Calculate the graph centralization scores for degree, closeness, and betweenness centrality using the `centralization` function in the `sna` package.  
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 5. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+### 4. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 ```{r}
 
@@ -124,7 +115,7 @@ rm( list = ls() )
 
 <br>
 
-### 2. Calculate and report the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.
+### 2. Calculate the mean closeness centrality score and the mean betweenness centrality score.
 
 ```{r}
 
@@ -134,7 +125,7 @@ rm( list = ls() )
 
 <br>
 
-### 3. Calculate the mean closeness centrality score and the mean betweenness centrality score.
+### 3. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality using the `centralization` function in the `sna` package.  
 
 ```{r}
 
@@ -144,17 +135,7 @@ rm( list = ls() )
 
 <br>
 
-### 4. Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality using the `centralization` function in the `sna` package.  
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 5. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
+### 4. Plot the network four times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for indegree centrality, a plot for outdegree centrality, a plot for closeness centrality, and a plot for betweenness centrality).
 
 ```{r}
 

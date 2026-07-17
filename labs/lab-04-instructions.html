@@ -3514,14 +3514,12 @@ window.onload = function() {
 <p><br></p>
 <section id="part-i-working-with-an-undirected-network" class="level2">
 <h2 class="anchored" data-anchor-id="part-i-working-with-an-undirected-network">Part I: Working with an Undirected Network</h2>
-<p>For this part of the lab, you will again use data from <a href="https://link.springer.com/article/10.1023/A:1015457400897">Margaret R. Weeks, Scott Clair, Stephen P. Borgatti, Kim Radda &amp; Jean J. Schensul’s analysis</a> of drug users in Hartford, Connecticut. This network is available in <code>SNACpack</code> as an object of class <code>network</code> and is labeled <code>drug_net</code>. To review documentation on the network, use this command: <code>?drug_net</code>.</p>
-<p>For the <code>drug_net</code> network, do the following:</p>
+<p>For this part of the lab, you will use data from <a href="https://www.tandfonline.com/doi/full/10.1080/03050629.2013.863190">Paul Gill, Jeongyoon Lee, Karl Rethemeyer, John Horgan, &amp; Victor Asal’s analysis</a> of active Provisional IRA (PIRA) members between 1970 and 1998 in Northern Ireland. This network is available in <code>SNACpack</code> as an object of class <code>network</code> and is labeled <code>pira_net</code>. To review documentation on the network, use this command: <code>?pira_net</code>.</p>
+<p>For the <code>pira_net</code> network, do the following:</p>
 <ol type="1">
-<li>Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the <code>degree()</code>, <code>closeness()</code>, and <code>betweenness()</code> functions from the <code>sna</code> package.</li>
-<li>Calculate and report the standardized degree, closeness, and betweenness centrality scores for each actor.</li>
+<li>Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the <code>degree()</code>, <code>closeness()</code>, and <code>betweenness()</code> functions from the <code>sna</code> package. For closeness, pay attention to whether the graph is disconnected and how to deal with calculating closesness centrality on such graphs.</li>
 <li>Calculate the mean closeness centrality score and the mean betweenness centrality score.</li>
-<li>Calculate the graph centralization scores for degree, closeness, and betweenness centrality using the <code>centralization</code> function in the <code>sna</code> package.<br>
-</li>
+<li>Calculate the graph centralization scores for degree, closeness, and betweenness centrality using the <code>centralization</code> function in the <code>sna</code> package. Again, for closeness, pay attention to the structure of the graph and how this influences your calculation.</li>
 <li>Plot the network three times using the <code>gplot()</code> function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality).</li>
 </ol>
 <p><br></p>
@@ -3533,7 +3531,6 @@ window.onload = function() {
 <p>For the <code>heroin_dealing_net</code> network, do the following:</p>
 <ol type="1">
 <li>Calculate the indegree, outdegree, closeness, and betweenness centrality scores for each actor. Feel free to use the <code>degree()</code>, <code>closeness()</code>, and <code>betweenness()</code> functions from the <code>sna</code> package.</li>
-<li>Calculate and report the standardized indegree, outdegree, closeness, and betweenness centrality scores for each actor.</li>
 <li>Calculate the mean closeness centrality score and the mean betweenness centrality score.</li>
 <li>Calculate the graph centralization scores for indegree, outdegree, closeness, and betweenness centrality using the <code>centralization</code> function in the <code>sna</code> package.<br>
 </li>
