@@ -1003,14 +1003,6 @@ In your response, discuss the potential benefits and challenges of focusing on a
 Consider how strengthening prosocial connections (such as family, mentors, employers, or community organizations) might reduce the likelihood of returning to gang involvement.
 Also, identify any ethical or practical concerns that could arise from using social network information in correctional decision-making.
 
-<br>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=sLED99CtgYM"
-frameborder="0" allow="accelerometer;
-autoplay; encrypted-media; gyroscope;
-picture-in-picture" allowfullscreen></iframe>
-
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
 
 <br>
