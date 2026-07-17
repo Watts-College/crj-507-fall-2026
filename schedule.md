@@ -738,9 +738,13 @@ The following checklist will help you stay organized in your fourth week.
 
 #### Network Disruption
 
-In criminology and criminal justice, much attention is focused on disrupting networks. That is, trying to disconnect a network so that it is less functional. For discussion this week, I would like you to read the paper [Disrupting resilient criminal networks through data analysis: The case of Sicilian Mafia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236476) by Lucia Cavallaro and colleagues.  
+In criminology and criminal justice, much attention is focused on disrupting networks. 
+That is, trying to disconnect a network so that it is less functional.
+For discussion this week, I would like you to read the paper [Disrupting resilient criminal networks through data analysis: The case of Sicilian Mafia](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236476) by Lucia Cavallaro and colleagues.  
 
-How does betweenness centrality operate as an intervention procedure in their study? What might the interventions look like if one were to use degree centrality or closeness centrality instead? Would they differ from the betweenness centrality intervention?
+How does betweenness centrality operate as an intervention procedure in their study? 
+What might the interventions look like if one were to use degree centrality or closeness centrality instead? 
+Would they differ from the betweenness centrality intervention?
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
 
@@ -990,15 +994,22 @@ The following checklist will help you stay organized in your sixth week.
 
 <br>
 
-## Focused Interventions
+## Gang Interventions
 
-What good is a network analysis if we can't put it into action? 
-A common network intervention is the "group-based violence intervention," where the goal is to use the network to disseminate credible threats to actors in a network.
+In his presentation, [The Unexpectedly Social World of Gangs](https://www.youtube.com/watch?v=sLED99CtgYM), Martin Bouchard argues that gang violence should be understood as a social network problem rather than simply a problem of individual criminality. 
+He suggests that the same social connections that reinforce gang involvement can also be leveraged to support successful gang exit and reduce recidivism.
+Watch Dr. Bouchard's video and think about the following question: How should criminal justice professionals incorporate social network analysis into reentry planning and gang intervention strategies? 
+In your response, discuss the potential benefits and challenges of focusing on an individual's social relationships during incarceration and after release. 
+Consider how strengthening prosocial connections (such as family, mentors, employers, or community organizations) might reduce the likelihood of returning to gang involvement.
+Also, identify any ethical or practical concerns that could arise from using social network information in correctional decision-making.
 
-An example of this approach is discussed in the article [Choosing Representatives to Deliver the Message in a Group Violence Intervention](https://www.tandfonline.com/doi/full/10.1080/24751979.2019.1630661) by Andrew Wheeler, Sarah McLean, Kelly Becker, and Robert Worden.
+<br>
 
-For your discussion this week, review the article above and think about how such an intervention might be used in a network you are interested in studying (or currently studying). 
-For this article, don't get lost in the details; think big picture in terms of what the "group-based violence intervention" model does and how analysts go about locating individuals who should be the ones to disseminate the message.
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=sLED99CtgYM"
+frameborder="0" allow="accelerometer;
+autoplay; encrypted-media; gyroscope;
+picture-in-picture" allowfullscreen></iframe>
 
 <a class="uk-button uk-button-primary" href="{{page.canvas.yellowdig_url}}">YELLOWDIG</a>
 
