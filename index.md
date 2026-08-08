@@ -284,7 +284,7 @@ This includes, but is not limited to, using AI tools to:
 
 You are expected to complete all work independently using only the materials and code provided in the course. 
 All code needed to complete assignments is provided within the course materials. 
-Therefore, any code or approach not found in the course materials will be assumed to have originated from a generative AI tool.
+Therefore, any code or approach not found in the course materials will be assumed to have originated from a generative AI tool (or some other source not in the course materials).
 
 If your submission contains material outside the scope of the course-provided resources, it will be treated as a violation of this policy. 
 If an assignment contains AI-generated content or unauthorized code, the assignment will receive a **0** and you will be required to **redo the assignment** using only approved course materials.
@@ -299,7 +299,16 @@ This course is about learning the materials I have provided.
 Using generative AI bypasses these learning objectives and prevents meaningful assessment of your work.
 Will you use AI tools if you continue with social network analysis? 
 Absolutely. But, *this course* is not about learning how to use AI tools. 
-It is about learning social network analysis and demonstrating your knowledge of that material.
+It is about learning social network analysis and demonstrating your knowledge of that material. 
+
+If your still not convinced, consider the calculator. 
+To use a calculator you need to know the basics of arithmetic. 
+This allows you to know what operations you need to perform as well as recognize when an error has occurred.
+It's the same thing here. I am teaching you the basics so you can *then* move to advanced tools. 
+In this course you are learning the basics and building a foundation that you can build on in the future. 
+This is why you are in this class: to take the time to learn how to do network analysis, not just be exposed to the basic ideas.
+That takes time and feels slow, but it is part of the learning process that is unavoidable. 
+Trust me, it's worth investing the time!
 
 # V. Course Schedule
 

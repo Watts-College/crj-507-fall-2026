@@ -233,7 +233,8 @@ If you find something confusing, let me know (likely others will find it confusi
 * Post a question to the [course discussion board](https://watts-college.github.io/crj-507-fall-2026/help/)
 * Request a walk-through and I will provide examples and steps
 
-As a general rule of thumb, if you are stuck, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues, then the help discussion page is the easiest and quickest way to get help. If you are confused about concepts or having a hard time even formulating your question, then virtual office hours are your best option.
+As a general rule of thumb, if you are stuck, need clarification about what the question is asking, want to make sure you understand a formula, or are having similar issues, then the help discussion page is the easiest and quickest way to get help. 
+If you are confused about concepts or having a hard time even formulating your question, then virtual office hours are your best option.
 
 <br>
 
@@ -574,8 +575,8 @@ Lab 3 provides an opportunity to familiarize yourself with calculating degree ce
 
 You will use data from two sources:
 
-  * [Thomas Grund and James Densley's study](https://journals.sagepub.com/doi/full/10.1177/1043986214553377) of ties among members of an inner-city gang in London, England.
-  * [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large cocaine trafficking organization in New York City.
+  * [Margaret R. Weeks, Scott Clair, Stephen P. Borgatti, Kim Radda & Jean J. Schensul's analysis](https://link.springer.com/article/10.1023/A:1015457400897) of drug users in Hartford, Connecticut.
+  * [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large heroin trafficking organization in New York City.
 
 <br>
 <br>
@@ -615,7 +616,8 @@ The following checklist will help you stay organized in your third week.
 
 ## Degree Centrality and the Mafia
 
-This week, we focused on degree centrality as a tool for describing networks. In the article [Vertical organizations, flat networks: Centrality and criminal collaboration in the Italian-American Mafia](https://www.sciencedirect.com/science/article/abs/pii/S0378873321000472) by Andrew Krajewski, Daniel DellaPosta, and Diane Felmlee, they use degree centrality to measure *social status*.
+This week, we focused on degree centrality as a tool for describing networks.
+In the article [Vertical organizations, flat networks: Centrality and criminal collaboration in the Italian-American Mafia](https://www.sciencedirect.com/science/article/abs/pii/S0378873321000472) by Andrew Krajewski, Daniel DellaPosta, and Diane Felmlee, they use degree centrality to measure *social status*.
 
 For your discussion this week, describe how you will think this measure captures the concept they are interested in examining. Also, think back to the discussion for Week 1. What are some of the limitations of these data that may have influenced the findings?
 
@@ -635,8 +637,8 @@ Lab 3 provides an opportunity to familiarize yourself with calculating degree ce
 
 You will use data from two sources:
 
-  * [Thomas Grund and James Densley's study](https://journals.sagepub.com/doi/full/10.1177/1043986214553377) of ties among members of an inner-city gang in London, England.
-  * [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large cocaine trafficking organization in New York City.
+  * [Margaret R. Weeks, Scott Clair, Stephen P. Borgatti, Kim Radda & Jean J. Schensul's analysis](https://link.springer.com/article/10.1023/A:1015457400897) of drug users in Hartford, Connecticut.
+  * [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large heroin trafficking organization in New York City.
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-03-instructions.html')">LAB 3 Instructions</a>
 
@@ -694,7 +696,14 @@ Required reading for this unit includes:
 
 ## Lab Assignment
 
-In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
+In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. 
+
+You will use data from two sources:
+
+  * [Paul Gill, Jeongyoon Lee, Karl Rethemeyer, John Horgan, & Victor Asal's analysis](https://www.tandfonline.com/doi/full/10.1080/03050629.2013.863190) of active Provisional IRA (PIRA) members between 1970 and 1998 in Northern Ireland.
+  * [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large heroin trafficking organization in New York City.
+
+We will examine these networks to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
 
 <br>
 <br>
@@ -759,7 +768,13 @@ Would they differ from the betweenness centrality intervention?
 ## Lab 4 - Closeness/Betweenness Centrality
 
 In Lab 4 we will focus on familiarizing yourself with calculating closeness centrality and betweenness centrality scores as well as centralization scores for undirected and directed networks in R. 
-We will revisit the networks we used in [Lab 3 - Degree Centrality and Centralization](../labs/lab-03-instructions.html) to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
+
+You will use data from two sources:
+
+  * [Paul Gill, Jeongyoon Lee, Karl Rethemeyer, John Horgan, & Victor Asal's analysis](https://www.tandfonline.com/doi/full/10.1080/03050629.2013.863190) of active Provisional IRA (PIRA) members between 1970 and 1998 in Northern Ireland.
+  * [Mangia Natarajan's study](https://link.springer.com/article/10.1007/s10940-006-9007-x) of a large heroin trafficking organization in New York City.
+
+We will examine these networks to assess how different centrality measures tell us a different (or the same) story about what it means to be "central" in a network. 
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-04-instructions.html')">LAB 4 Instructions</a>
 
@@ -823,11 +838,10 @@ Required reading for this unit includes:
 Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. 
 You will work with two networks. 
 
-First, you will use a network analyzed in [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419) of terrorist organizations. 
-The network is two-mode and composed of 394 organizations and their connections to terrorist events in 65 countries. 
+You will use data from two sources:
 
-Second, you will use the Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. 
-The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
+  * [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419) of terrorist organizations.
+  * Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines.
 
 <br>
 <br>
@@ -891,11 +905,13 @@ Or does it depend?
 Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. 
 You will work with two networks. 
 
-First, you will use a network analyzed in [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419) of terrorist organizations. 
-The network is two-mode and composed of 394 organizations and their connections to terrorist events in 65 countries. 
+Lab 5 will provide the opportunity to continue to familiarize yourself with bipartite graphs and two-mode networks in *R*. 
+You will work with two networks. 
 
-Second, you will use the Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines. 
-The network is two-mode, with 246 actors (i.e., terrorist kidnappers) and 105 terrorist events the actors attended. 
+You will use data from two sources:
+
+  * [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419) of terrorist organizations.
+  * Philippine Kidnappings Data, which is a collection of relationships on the Abu Sayyaf Group (ASG), a violent non-state actor operating in the Southern Philippines.
 
 <a class="uk-button uk-button-default" onclick="window.open('../labs/lab-05-instructions.html')">LAB 5 Instructions</a>
 
