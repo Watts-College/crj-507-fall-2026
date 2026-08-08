@@ -3445,14 +3445,13 @@ window.onload = function() {
   <ul>
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
-  <li><a href="#part-i-a-terrorism-network" id="toc-part-i-a-terrorism-network" class="nav-link" data-scroll-target="#part-i-a-terrorism-network">Part I: A Terrorism Network</a>
+  <li><a href="#part-i-a-kidnapping-network" id="toc-part-i-a-kidnapping-network" class="nav-link" data-scroll-target="#part-i-a-kidnapping-network">Part I: A Kidnapping Network</a>
   <ul class="collapse">
   <li><a href="#bipartite-graph-and-projections" id="toc-bipartite-graph-and-projections" class="nav-link" data-scroll-target="#bipartite-graph-and-projections">Bipartite Graph and Projections</a></li>
   <li><a href="#person-matrix-projection" id="toc-person-matrix-projection" class="nav-link" data-scroll-target="#person-matrix-projection"><em>Person</em> Matrix Projection</a></li>
   </ul></li>
-  <li><a href="#part-ii-a-kidnapping-network" id="toc-part-ii-a-kidnapping-network" class="nav-link" data-scroll-target="#part-ii-a-kidnapping-network">Part II: A Kidnapping Network</a></li>
-  <li><a href="#part-iii-your-network" id="toc-part-iii-your-network" class="nav-link" data-scroll-target="#part-iii-your-network">Part III: Your Network</a></li>
-  <li><a href="#part-iv-analytical-briefing" id="toc-part-iv-analytical-briefing" class="nav-link" data-scroll-target="#part-iv-analytical-briefing">Part IV: Analytical Briefing</a></li>
+  <li><a href="#part-ii-your-network" id="toc-part-ii-your-network" class="nav-link" data-scroll-target="#part-ii-your-network">Part II: Your Network</a></li>
+  <li><a href="#part-iii-analytical-briefing" id="toc-part-iii-analytical-briefing" class="nav-link" data-scroll-target="#part-iii-analytical-briefing">Part III: Analytical Briefing</a></li>
   </ul></li>
   <li><a href="#how-to-submit" id="toc-how-to-submit" class="nav-link" data-scroll-target="#how-to-submit">How to Submit</a>
   <ul class="collapse">
@@ -3489,7 +3488,7 @@ window.onload = function() {
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
 <p>The purpose of this lab is to familiarize yourself with projecting bipartite graphs to unipartite graphs in <em>R</em>. Prior to beginning this lab, please review the <a href="https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html">Projection</a> chapter of the <a href="https://jacobtnyoung.github.io/snaca-textbook/index.html">Social Network Analysis for Crime Analysts</a> textbook as well as the <a href="https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html">Projection &amp; Weighted Graphs</a> tutorial in the <a href="https://jacobtnyoung.github.io/snaca-r/index.html">Social Network Analysis for Crime Analysts using R</a> textbook.</p>
-<p>In Parts I and II of this lab, we will revisit the networks we used in <a href="../labs/lab-05-instructions.html">Lab 5</a>, and in Part III, you will use the bipartite network you created in <a href="../labs/lab-05-instructions.html">Lab 5</a>. Part IV, gives instructions for your <em>Analytical Briefing</em>.</p>
+<p>In Part I of this lab, we will revisit one of the networks we used in <a href="../labs/lab-05-instructions.html">Lab 5</a>, and in Part II, you will use the bipartite network you created in <a href="../labs/lab-05-instructions.html">Lab 5</a>. Part III, gives instructions for your <em>Analytical Briefing</em>.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Network and Matrix Objects">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -3504,14 +3503,14 @@ window.onload = function() {
 </div>
 </div>
 <p><br></p>
-<section id="part-i-a-terrorism-network" class="level2">
-<h2 class="anchored" data-anchor-id="part-i-a-terrorism-network">Part I: A Terrorism Network</h2>
-<p>For this part of the lab, you will again use the network of terrorist organizations analyzed by <a href="https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419">Victor Asal and R. Karl Rethemeyer’ study</a>. This network is available in <code>SNACpack</code> and is called <code>baad_net</code>. To review documentation on the network, use <code>?baad_net</code>.</p>
+<section id="part-i-a-kidnapping-network" class="level2">
+<h2 class="anchored" data-anchor-id="part-i-a-kidnapping-network">Part I: A Kidnapping Network</h2>
+<p>For this part of the lab, you will again use the network created from the Philippine Kidnappings Data. This network is available in <code>SNACpack</code> and is called <code>philippine_kidnappings_net</code>. To review documentation on the network, use <code>?philippine_kidnappings_net</code>.</p>
 <section id="bipartite-graph-and-projections" class="level3">
 <h3 class="anchored" data-anchor-id="bipartite-graph-and-projections">Bipartite Graph and Projections</h3>
-<p>For the <code>baad_net</code> network, do the following:</p>
+<p>For the <code>philippine_kidnappings_net</code> network, do the following:</p>
 <ol type="1">
-<li>Create an object of class <code>matrix</code> from the <code>baad_net</code> network. Use the <code>as.sociomatrix()</code> function in the <code>network</code> package to do so. ( <strong>NOTE: DO NOT PRINT OUT THE MATRIX</strong>).</li>
+<li>Create an object of class <code>matrix</code> from the <code>philippine_kidnappings_net</code> network. Use the <code>as.sociomatrix()</code> function in the <code>network</code> package to do so. ( <strong>NOTE: DO NOT PRINT OUT THE MATRIX</strong>).</li>
 <li>Create the unipartite graph that represents the <em>person</em> matrix.</li>
 <li>Create the unipartite graph that represents the <em>group</em> matrix.</li>
 <li>Plot all three networks. Use the <code>edge_rescale()</code> and <code>edge_shade()</code> functions in the <code>SNACpack</code> package to use the edge weights in the plots for each projected graph.</li>
@@ -3531,20 +3530,14 @@ window.onload = function() {
 <p><br></p>
 </section>
 </section>
-<section id="part-ii-a-kidnapping-network" class="level2">
-<h2 class="anchored" data-anchor-id="part-ii-a-kidnapping-network">Part II: A Kidnapping Network</h2>
-<p>For this part of the lab, you will again use the network created from the Philippine Kidnappings Data. This network is available in <code>SNACpack</code> and is called <code>philippine_kidnappings_net</code>. To review documentation on the network, use <code>?philippine_kidnappings_net</code>.</p>
-<p>For the <code>philippine_kidnappings_net</code> network, repeat steps 1-4 from <em>Part I</em>. For the <em>person</em> matrix you created in step 2, repeat steps 5-9 from <em>Part I</em>.</p>
-<p><br></p>
-</section>
-<section id="part-iii-your-network" class="level2">
-<h2 class="anchored" data-anchor-id="part-iii-your-network">Part III: Your Network</h2>
+<section id="part-ii-your-network" class="level2">
+<h2 class="anchored" data-anchor-id="part-ii-your-network">Part II: Your Network</h2>
 <p>For this part of the lab, I would like you to use the bipartite network you created in <a href="../labs/lab-05-instructions.html">Lab 5</a>. For the bipartite network you created, repeat steps 1-4 from <em>Part I</em>. For the <em>person</em> matrix you created in step 2, repeat steps 5-9 from <em>Part I</em>.</p>
 <p><br></p>
 </section>
-<section id="part-iv-analytical-briefing" class="level2">
-<h2 class="anchored" data-anchor-id="part-iv-analytical-briefing">Part IV: Analytical Briefing</h2>
-<p>Pretend you are presenting your analysis for either <strong>Part I</strong> or <strong>Part II</strong> to a supervisor or investigative team. Your goal is not simply to report numerical results, but to explain what the results reveal about the structure of the network and why the results matter.</p>
+<section id="part-iii-analytical-briefing" class="level2">
+<h2 class="anchored" data-anchor-id="part-iii-analytical-briefing">Part III: Analytical Briefing</h2>
+<p>Pretend you are presenting your analysis for <strong>Part I</strong> to a supervisor or investigative team. Your goal is not simply to report numerical results, but to explain what the results reveal about the structure of the network and why the results matter.</p>
 <p>Your briefing should address the following topics:</p>
 <ul>
 <li>Projected Network Structure

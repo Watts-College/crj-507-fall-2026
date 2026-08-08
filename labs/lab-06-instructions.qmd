@@ -11,8 +11,8 @@ knitr::opts_chunk$set( echo = TRUE )
 The purpose of this lab is to familiarize yourself with projecting bipartite graphs to unipartite graphs in *R*. 
 Prior to beginning this lab, please review the [Projection](https://jacobtnyoung.github.io/snaca-textbook/snaca-projection.html) chapter of the [Social Network Analysis for Crime Analysts](https://jacobtnyoung.github.io/snaca-textbook/index.html) textbook as well as the [Projection & Weighted Graphs](https://jacobtnyoung.github.io/snaca-r/snaca-r-projection.html) tutorial in the [Social Network Analysis for Crime Analysts using R](https://jacobtnyoung.github.io/snaca-r/index.html) textbook.
 
-In Parts I and II of this lab, we will revisit the networks we used in [Lab 5](../labs/lab-05-instructions.html), and in Part III, you will use the bipartite network you created in [Lab 5](../labs/lab-05-instructions.html). 
-Part IV, gives instructions for your *Analytical Briefing*.
+In Part I of this lab, we will revisit one of the networks we used in [Lab 5](../labs/lab-05-instructions.html), and in Part II, you will use the bipartite network you created in [Lab 5](../labs/lab-05-instructions.html). 
+Part III, gives instructions for your *Analytical Briefing*.
 
 ::: {.callout-note title="Network and Matrix Objects"}
 *Note* that the objects, and all networks in the `SNACpack` package, are of class `network`. This means that to use functions for objects of class `matrix` (such as `dim()` or `sum()`), you need to first coerce the object to a `matrix` object using `as.matrix`. For example: `my_matrix <- as.matrix( my_network )`.
@@ -20,15 +20,15 @@ Part IV, gives instructions for your *Analytical Briefing*.
 
 <br>
 
-## Part I: A Terrorism Network
+## Part I: A Kidnapping Network
 
-For this part of the lab, you will again use the network of terrorist organizations analyzed by [Victor Asal and R. Karl Rethemeyer' study](https://www.journals.uchicago.edu/doi/10.1017/S0022381608080419). This network is available in `SNACpack` and is called `baad_net`. To review documentation on the network, use `?baad_net`.
+For this part of the lab, you will again use the network created from the Philippine Kidnappings Data. This network is available in `SNACpack` and is called `philippine_kidnappings_net`. To review documentation on the network, use `?philippine_kidnappings_net`.
 
 ### Bipartite Graph and Projections
 
-For the `baad_net` network, do the following:  
+For the `philippine_kidnappings_net` network, do the following:  
 
-1. Create an object of class `matrix` from the `baad_net` network. Use the `as.sociomatrix()` function in the `network` package to do so. ( **NOTE: DO NOT PRINT OUT THE MATRIX**).
+1. Create an object of class `matrix` from the `philippine_kidnappings_net` network. Use the `as.sociomatrix()` function in the `network` package to do so. ( **NOTE: DO NOT PRINT OUT THE MATRIX**).
 2. Create the unipartite graph that represents the *person* matrix.
 3. Create the unipartite graph that represents the *group* matrix.
 4. Plot all three networks. Use the `edge_rescale()` and `edge_shade()` functions in the `SNACpack` package to use the edge weights in the plots for each projected graph.
@@ -45,16 +45,7 @@ For the *person* matrix you created in step 2, do the following:
 
 <br>
 
-## Part II: A Kidnapping Network
-
-For this part of the lab, you will again use the network created from the Philippine Kidnappings Data. This network is available in `SNACpack` and is called `philippine_kidnappings_net`. To review documentation on the network, use `?philippine_kidnappings_net`.
-
-For the `philippine_kidnappings_net` network, repeat steps 1-4 from *Part I*.
-For the *person* matrix you created in step 2, repeat steps 5-9 from *Part I*.
-
-<br>
-
-## Part III: Your Network
+## Part II: Your Network
 
 For this part of the lab, I would like you to use the bipartite network you created in [Lab 5](../labs/lab-05-instructions.html). 
 For the bipartite network you created, repeat steps 1-4 from *Part I*.
@@ -62,9 +53,9 @@ For the *person* matrix you created in step 2, repeat steps 5-9 from *Part I*.
 
 <br>
 
-## Part IV: Analytical Briefing
+## Part III: Analytical Briefing
 
-Pretend you are presenting your analysis for either **Part I** or **Part II** to a supervisor or investigative team. Your goal is not simply to report numerical results, but to explain what the results reveal about the structure of the network and why the results matter. 
+Pretend you are presenting your analysis for **Part I** to a supervisor or investigative team. Your goal is not simply to report numerical results, but to explain what the results reveal about the structure of the network and why the results matter. 
 
 Your briefing should address the following topics:
 

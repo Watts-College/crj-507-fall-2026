@@ -55,7 +55,7 @@ rm( list = ls() )
 
 <br>
 
-## Part I: A Conspiracy Network
+## Part I: A Terrorism Network
 
 <br>
 
@@ -225,68 +225,4 @@ rm( list = ls() )
 
 <br>
 
-### 1. Plot the network using the `gplot()` function.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 2. Calculate the density of the network.
-
-```{r}
-
-# Your code here
-
-```
-
-### 3. Calculate the degree centrality scores for each set of nodes using the `rowSums()` and `colSums()` functions.  
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 4. Calculate the mean degree centrality scores.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 5. Calculate the standardized degree centrality scores for each set of nodes.  
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 6. Calculate the mean standardized degree centrality score.  
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 12. Plot the network using the standardized degree centrality scores (be sure to use the `vertex_rescale()` function to aid with rescaling). 
-
-```{r}
-
-# Your code here
-
-```
+*Add your code setup here according to the instructions above, then DELETE THIS STATEMENT*
