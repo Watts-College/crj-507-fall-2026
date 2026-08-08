@@ -50,103 +50,7 @@ rm( list = ls() )
 
 ```
 
-<br>
-
-## Part I: A Terrorism Network
-
-### 1. Create an object of class `matrix` from the `baad_net` network. Use the `as.sociomatrix()` function in the `network` package to do so. ( **NOTE: DO NOT PRINT OUT THE MATRIX**).
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 2. Create the unipartite graph that represents the *person* matrix.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 3. Create the unipartite graph that represents the *group* matrix.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 4. Plot all three networks. Use the `edge_rescale()` and `edge_shade()` functions in the `SNACpack` package to use the edge weights in the plots for each projected graph.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 5. Create an object of class `network` using the `as.network()` function. Pay attention to the correct usage of the `directed=` argument.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 6. Calculate the degree, closeness, and betweenness centrality scores for each actor. Feel free to use the `degree()`, `closeness()`, and `betweenness()` functions from the `sna` package.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 7. Calculate the mean degree, closeness, and betweenness centrality scores.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 8. Calculate the graph centralization scores for degree, closeness, and betweenness centrality.  
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-### 9. Be sure to use the `vertex_rescale()` function to aid with the visualization.
-
-```{r}
-
-# Your code here
-
-```
-
-<br>
-
-----
-
-## Part II: A Kidnapping Network
+## Part I: A Kidnapping Network
 
 ### 1. Create an object of class `matrix` from the `philippine_kidnappings_net` network. Use the `as.sociomatrix()` function in the `network` package to do so. ( **NOTE: DO NOT PRINT OUT THE MATRIX**).
 
@@ -242,7 +146,7 @@ rm( list = ls() )
 
 ----
 
-## Part III: Your Network
+## Part II: Your Network
 
 For this part of the lab, I would like you use the bipartite network you created in [Lab 5](../labs/lab-05-instructions.html). 
 
