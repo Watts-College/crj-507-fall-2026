@@ -89,8 +89,7 @@ In order to create robust and dynamic analysis, we need to use a couple of tools
 ## R Markdown
 
 You will get plenty of practice with these tools and submit your labs as knitted R Markdown (`.RMD`) files. 
-You can learn more about R Markdown here: [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html). 
-But to give you a glimpse, you can view R Markdown in action in the below image:
+To give you a glimpse, you can view R Markdown in action in the below image:
 
 <br>
 
