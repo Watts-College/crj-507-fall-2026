@@ -54,7 +54,7 @@ ____
 For your written work, upload a `.pdf` (or `.docx`) file and for your Analytical Briefing upload a `.mp4` file. 
 Both files should be uploaded to the appropriate link for this assignment on the Canvas page for this course: 
 
-  * **Written Assignment**: Upload a `.pdf` or `.docx` file containing your responses to the lab questions. 
-  * **Analytical Briefing**: Upload an `.mp4` video file containing your screen-recorded *Analytical Briefing*.
+  * *Written Assignment*: Upload a `.pdf` or `.docx` file containing your responses to the lab questions and labeled **Lab-01-LastName.html**. 
+  * *Analytical Briefing*: Upload an `.mp4` video file containing your screen-recorded *Analytical Briefing* and labeled **Lab-01-LastName.mp4**.
 
 Before submitting, verify that both files open correctly and that your video includes clear audio narration.
