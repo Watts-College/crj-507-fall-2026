@@ -117,7 +117,7 @@ rm( list = ls() )
 
 <br>
 
-### 12. Plot the network using the standardized degree centrality scores (be sure to use the `vertex_rescale()` function to aid with rescaling). 
+### 7. Plot the network using the standardized degree centrality scores (be sure to use the `vertex_rescale()` function to aid with rescaling). 
 
 ```{r}
 
@@ -191,7 +191,7 @@ rm( list = ls() )
 
 <br>
 
-### 12. Plot the network using the standardized degree centrality scores (be sure to use the `vertex_rescale()` function to aid with rescaling). 
+### 7. Plot the network using the standardized degree centrality scores (be sure to use the `vertex_rescale()` function to aid with rescaling). 
 
 ```{r}
 
