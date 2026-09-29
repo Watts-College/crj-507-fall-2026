@@ -134,7 +134,7 @@ rm( list = ls() )
 
 <br>
 
-### 9. Be sure to use the `vertex_rescale()` function to aid with the visualization.
+### 9. Plot the network three times using the `gplot()` function where each plot sizes the nodes by the centrality score (i.e., a plot for degree centrality, a plot for closeness centrality, and a plot for betweenness centrality). Be sure to use the `vertex_rescale()` function to aid with the visualization.
 
 ```{r}
 
